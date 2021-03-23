@@ -32,8 +32,18 @@ class PracticaController extends Controller
    try{
             DB::beginTransaction();
             
-            DB::table('registroFianca')->insert(['Usuario' => $request->usuario,
-            'Contrasena' => $request->contraseña ]);
+            DB::table('usuario')->insert(['password' => $request->password,
+            'email' => $request->email,
+            'nombre' => $request->nombre,
+            'apellido' => $request->apellido,
+            'tipousuario' => $request->tipousuario,
+            'remember_token' => $request->remember_token,
+            'status' => $request-> status,
+            'created_at' => $request->created_at,
+            'updated_at' => $request->updated_at,
+            'deleted_at' => $request->deleted_at,
+            'user_uuid_created'=> $request->user_uuid_created,
+            'user_uuid_updated'=> $request->user_uuid_updated ]);
 
             DB::commit();
             return response()->json(["mensaje"=>true, "texto"=>"Se creo correctamente"]);
