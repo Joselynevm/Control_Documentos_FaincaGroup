@@ -1,0 +1,188 @@
+  body {
+    position: relative;
+    width: 26cm;  
+    margin: 0 auto; 
+    color: #001028;
+    background: #FFFFFF; 
+    font-family: Arial, sans-serif; 
+    font-size: 12px; 
+    font-family: Arial;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: #000 1px solid 
+
+  }
+
+  table tr:nth-child(2n-1) td {
+    background: #F5F5F5;
+  }
+
+  table th,
+  table td {
+    text-align: left;
+  }
+
+  table th {
+    color: #5D6975;
+    border-bottom: 1px solid #C1CED9;
+    white-space: nowrap;        
+    font-weight: normal;
+  }
+
+
+  table td {
+    padding: 1px;
+    text-align: left;
+  }
+
+  table.GeneratedTable {
+    background-color: #ffffff;
+    border-collapse: collapse;
+    border-width: 2px;
+    border-color: #008080;
+    border-style: dashed;
+    color: #000000; 
+  }
+
+
+table.GeneratedTable td {
+  border-width: 2px;
+   background-color: #ffffff;
+  border-color: #ffffff;
+  border-style: dashed;
+
+
+}
+
+table.GeneratedTable td.nuevo{
+background-color:#D8F1F2;
+        
+}
+table.GeneratedTable td.nuevo2{
+background-color:#DAC9CC;
+        
+}
+table.GeneratedTable thead {
+  background-color: #ffffff;
+}
+
+ table.redu2 {
+        width: 70%;
+        background-color: #ffffff;
+        border-collapse: collapse;
+        border-width: 2px;
+        border-color: #000000;
+        border-style: inset;
+        color: #000000;
+      }
+
+  table.redu2 th{  
+          padding:2px;
+          border-top: hidden;
+          border-left: hidden;
+          border-right: hidden;
+  }
+
+
+  table.redu2 td  {
+    border-width: 2px;
+    border-color: #000000;
+    border-style: inset;
+    padding: 2px;
+  }
+
+  table.redu2 thead {
+    background-color: #ffffff;
+  }
+
+
+
+ table.redu {
+        width: 50%;
+        background-color: #ffffff;
+        border-collapse: collapse;
+        border-width: 2px;
+        border-color: #000000;
+        border-style: inset;
+        color: #000000;
+  }
+
+
+  table.redu th{  
+          padding:2px;
+          border-top: hidden;
+          border-left: hidden;
+          border-right: hidden;
+  }
+
+
+  table.redu td  {
+    border-width: 2px;
+    border-color: #000000;
+    border-style: inset;
+    padding: 2px;
+  }
+
+  table.redu thead {
+    background-color: #ffffff;
+  }
+      
+  table.Table {
+        width: 100%;
+        background-color: #ffffff;
+        border-collapse: collapse;
+        border-width: 2px;
+        border-color: #000000;
+        border-style: inset;
+        color: #000000;
+  }
+
+
+  table.Table th{  
+          padding:-5px;
+          border-top: hidden;
+          border-left: hidden;
+          border-right: hidden;
+  }
+
+
+
+      table.Table td  {
+        border-width: 2px;
+        border-color: #000000;
+        border-style: inset;
+        padding: 3px;
+      }
+
+
+
+      table.Table thead {
+        background-color: #ffffff;
+      }
+      
+      @media print {
+       @page { margin: 10px;
+       size:A4 portrait;
+        page-break-after: avoid;
+          page-break-before: avoid;
+          page-break-inside: avoid;
+       }
+        
+        body {
+          background: #fff;
+          color: #000;
+          font-size: 10pt;
+          line-height: 150%;
+          margin: 0px;
+          page-break-after: avoid;
+          page-break-before: avoid;
+          page-break-inside: avoid;
+        }
+        ul, img, table {
+      page-break-inside: avoid;
+    }
+}

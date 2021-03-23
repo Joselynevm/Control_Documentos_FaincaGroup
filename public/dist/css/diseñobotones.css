@@ -1,0 +1,53 @@
+.btngeorge{
+	margin-left: 20px;
+	margin-top: 2px;
+	margin-bottom: 20px;
+  background: none;
+  border:none;
+   outline:none;
+}
+
+.btngeorge img{
+width:35px; 
+height:35px;
+}
+
+
+  button[name='uno']{
+    background-color: #89C7B0;
+    color: white;
+    border-color:#89C7B0; 
+  }
+  button[name='uno']:hover{
+    background-color: #64AB91;
+    border-color:#64AB91;
+  }
+
+  button[name='uno']:active{
+    background-color: #64AB91;
+    border-color:#64AB91
+  }
+
+  button[name='dos']{
+    background-color: #F0BF6B;
+    color: white;
+    border-color:#F0BF6B; 
+  }
+  button[name='dos']:hover{
+    background-color: #F2AF3C;
+    border-color:#F2AF3C;
+    color: #434343;
+  }
+
+  button[name='dos']:active{
+    background-color: #F2AF3C;
+    border-color:#F2AF3C
+  }
+
+/*.btngeorge:hover {
+    background-color: #A7CF62;
+    border-color: black;
+    color: black;
+    font-weight: bold;
+ }
+*/
