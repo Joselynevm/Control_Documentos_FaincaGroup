@@ -14,7 +14,7 @@
                         </div>
                     @endif
 
-                    Eres un Administrador
+                    Eres un usuario
                 </div>
             </div>
         </div>
